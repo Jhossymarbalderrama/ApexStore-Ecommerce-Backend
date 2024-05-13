@@ -103,6 +103,19 @@ public class ChartController {
         return new ResponseEntity(lista, HttpStatus.OK);
     }
     
+    @GetMapping("/chart/getDataCharts")
+    @ResponseBody
+    public ResponseEntity<Object> getDataCharts(){
+        Object res;
+        
+        try{
+            res = chartService.getDataCharts();
+        }catch (Exception e){
+            return new ResponseEntity(new Message("Error. No se pudo generar los datos de los charts.") + e.toString(), HttpStatus.FOUND);
+        }
+        return new ResponseEntity(res, HttpStatus.OK);
+    }
+    
     
     private ResponseEntity responseMessage(String data) {
         return new ResponseEntity(new Message(data + " Required"), HttpStatus.BAD_REQUEST);

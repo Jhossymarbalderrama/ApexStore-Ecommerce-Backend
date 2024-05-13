@@ -21,4 +21,6 @@ public interface IChart {
     public List<Map<String, Object>> listCantidadDeFacturasMes();        
     
     public List<Map<String, Object>> listAltaProductosXMes();
+    
+    public List<Map<String, Object>> getDataCharts();
 }

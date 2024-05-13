@@ -258,4 +258,29 @@ public class ChartService implements IChart {
         
         return res;
     }
+    
+    @Override
+    public List<Map<String, Object>> getDataCharts(){
+        List<Map<String, Object>> res = new ArrayList<>();
+        Map<String, Object> objListAltaProductosXMes = new HashMap<>();
+        Map<String, Object> objListCantUserXRole = new HashMap<>();
+        Map<String, Object> objListCantidadDeFacturasMes = new HashMap<>();
+        Map<String, Object> objListTop5ProductosMasVendidos = new HashMap<>();
+        Map<String, Object> objListTotalIngresosXMes = new HashMap<>();
+        
+    
+        objListAltaProductosXMes.put("listAltaProductosXMes", this.listAltaProductosXMes());
+        objListCantUserXRole.put("listCantUserXRole", this.listCantUserXRole());
+        objListCantidadDeFacturasMes.put("listCantidadDeFacturasMes", this.listCantidadDeFacturasMes());
+        objListTop5ProductosMasVendidos.put("listTop5ProductosMasVendidos", this.listTop5ProductosMasVendidos());
+        objListTotalIngresosXMes.put("listTotalIngresosXMes", this.listTotalIngresosXMes());
+        
+        res.add(objListAltaProductosXMes);
+        res.add(objListCantUserXRole);
+        res.add(objListCantidadDeFacturasMes);
+        res.add(objListTop5ProductosMasVendidos);
+        res.add(objListTotalIngresosXMes);
+        
+        return res;
+    }
 }
