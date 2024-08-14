@@ -4,6 +4,7 @@ import com.backend.ecommerce.model.Factura;
 import com.backend.ecommerce.model.StateFactura;
 import com.backend.ecommerce.security.controller.Message;
 import com.backend.ecommerce.service.IFactura;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -29,6 +30,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @CrossOrigin(origins = {"http://localhost:4200","https://e-commerce-ac291.web.app/"}, maxAge = 3600, allowCredentials = "true")
 @RequestMapping("/api")
+@Tag(name="Facturas", description="Controller for Facturas")
 public class FacturaController {
 
     @Autowired

@@ -4,7 +4,6 @@ import com.backend.ecommerce.jwt.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -52,10 +51,11 @@ public class SecurityConfig {
             .csrf(csrf -> csrf.disable())                
             .authorizeHttpRequests(authRequest ->
                                                 authRequest
+                                                    .requestMatchers("/swagger-ui/**","/v3/api-docs/**").permitAll()
                                                     .requestMatchers("/auth/**").permitAll()
                                                     .requestMatchers("/api/product/list").permitAll()
                                                     .requestMatchers("/api/product/get/**").permitAll()
-                                                    .requestMatchers("/api/user/get/**").permitAll()                                                                                                        
+                                                    .requestMatchers("/api/user/get/**").permitAll() 
                                                     .anyRequest().authenticated())
             .sessionManagement(sessionManager->
                                                 sessionManager 
