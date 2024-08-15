@@ -9,10 +9,11 @@
 
 <hr>
 
-### API URL
+### API URL |Documentación
+<p>Documentación de Swagger: <a href="https://apexstore-ecommerce-backend.onrender.com/swagger-ui/index.html" target="_blank"> Swagger API</a></p>
 <p>Local: http://localhost:{port}/</p>
-<p>Render: ``https://e-commerce-ac291.web.app/``</p>
-<p>Documentacion de Swagger: <a href="https://apexstore-ecommerce-backend.onrender.com/swagger-ui/index.html" target="_blank"> Swagger API</a></p>
+<p>Render: https://apexstore-ecommerce-backend.onrender.com/ </p>
+
 ### Auth
 
 | Method   | URL                                      | Descripción                              |
