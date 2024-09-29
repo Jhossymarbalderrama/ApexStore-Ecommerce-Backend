@@ -136,13 +136,34 @@ Luego de tener una copia del repositorio local, correr los siguentes comandos en
 
 ## 🏠 Home 
 <p align="center">
-  <img src='https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/852eaae5-d270-480f-ade2-33a777a67712'/>
+  
+  ![Apex Store Home](https://github.com/user-attachments/assets/f03dd299-cb15-45d0-a530-c6d65a90b106)
+</p>
+
+## 🏪 Tienda 
+<p align="center">
+  <img src='https://github.com/user-attachments/assets/f2f70973-314e-44e6-85f2-637352c7382e'/>
+</p>
+
+## 🏬 Nosotros  
+<p align="center">
+  <img src='https://github.com/user-attachments/assets/7c49c618-0b4e-4a62-aae3-0ae23e772548'/>
+</p>
+
+## 📠 Contacto
+<p align="center">
+  <img src='https://github.com/user-attachments/assets/7e1ccac4-041e-4b99-8962-76ab8e0212db'/>
+</p>
+
+## 🧑‍💼 Dashboard Administrador de Web
+<p align="center">
+  <img src='https://github.com/user-attachments/assets/dff770fe-c65c-4d9e-8880-fc9c7e69063c'>
 </p>
 
 ##  🖥️ Responsive Página Web 📱
 
 | Macbooks y Tablets  | Smartphones |
 | ------------- | ------------- |
-| <img src='https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/f217a0da-2e7a-4008-a99e-8c54576c3cad' width="750px" height="auto" /> |  <img src='https://github.com/Jhossymarbalderrama/ApexStore-Ecommerce-Front/assets/52534649/309dbeaf-5769-4a64-84aa-e473274b3c33' width="100%" height="100%" />  |
+| <img src='https://github.com/user-attachments/assets/9b7a7337-16c2-4613-867b-08fd80007c7d' width="750px" height="auto" /> |  <img src='https://github.com/user-attachments/assets/1d4c5e7c-b0e3-4624-8efd-3316ea9a48f9' width="100%" height="100%" />  |
 
 
